@@ -1,0 +1,606 @@
+{
+  "expand": "schema,names",
+  "startAt": 0,
+  "maxResults": 20,
+  "total": 20,
+  "issues": [
+    {
+      "id": "20001",
+      "key": "REQ-SYS-001",
+      "fields": {
+        "summary": "Build system must support CMake version 3.13 or later with Ninja",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Build system must support CMake version 3.13 or later with Ninja build system. This ensures modern build capabilities and cross-platform compilation support.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20002",
+      "key": "REQ-SYS-002",
+      "fields": {
+        "summary": "Must support Arm GNU Toolchain for arm-none-eabi compilation",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must support Arm GNU Toolchain for arm-none-eabi compilation. This provides the necessary compiler infrastructure for ARM-based embedded systems.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20003",
+      "key": "REQ-SYS-003",
+      "fields": {
+        "summary": "ThreadX RTOS must be built and linked as mandatory dependency",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "ThreadX RTOS must be built and linked as a mandatory dependency. FileX requires ThreadX kernel services for thread synchronization and memory management.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20004",
+      "key": "REQ-SYS-004",
+      "fields": {
+        "summary": "Must support multiple ARM Cortex processors with port-specific implementations",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must support multiple ARM Cortex processors with port-specific implementations. Architecture-specific code ensures optimal performance across different microcontroller families.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20005",
+      "key": "REQ-FUNC-001",
+      "fields": {
+        "summary": "Must implement FAT-compatible file system supporting multiple formats",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must implement FAT-compatible file system supporting FAT12, FAT16, FAT32, and exFAT formats. This ensures compatibility with standard storage media and desktop systems.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20006",
+      "key": "REQ-FUNC-002",
+      "fields": {
+        "summary": "Must provide high-performance operation with small memory footprint",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must provide high-performance operation with small memory footprint for deeply embedded applications. Real-time performance is critical for embedded system responsiveness.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20007",
+      "key": "REQ-FUNC-003",
+      "fields": {
+        "summary": "Must support multiple storage media types",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must support RAM, SD Card, USB storage via USBX, and NAND/NOR flash via LevelX. Multiple storage media support enables flexible system designs.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20008",
+      "key": "REQ-FUNC-004",
+      "fields": {
+        "summary": "Must provide standard file operations",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must provide standard file operations including create, open, read, write, close, and delete. Complete file system API ensures application compatibility.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20009",
+      "key": "REQ-FUNC-005",
+      "fields": {
+        "summary": "Must support directory operations",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must support directory operations including create, delete, rename, and search functionality. Directory management is essential for organized file storage.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20010",
+      "key": "REQ-FUNC-006",
+      "fields": {
+        "summary": "Must support long filenames with Unicode support",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must support long filenames up to 256 characters (configurable) with Unicode support. Extended filename support improves usability and internationalization.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20011",
+      "key": "REQ-FUNC-007",
+      "fields": {
+        "summary": "Must provide file attribute management and extended operations",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must provide file attribute management and extended allocation operations. Advanced file operations enable sophisticated storage management.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20012",
+      "key": "REQ-PERF-001",
+      "fields": {
+        "summary": "Must support configurable sector cache",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must support configurable sector cache with minimum 2 sectors in power-of-2 increments. Efficient caching improves file system performance and reduces media access.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20013",
+      "key": "REQ-PERF-002",
+      "fields": {
+        "summary": "Must implement configurable FAT cache",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must implement configurable FAT cache with minimum 8 entries in power-of-2 sizes. FAT caching reduces repeated metadata reads and improves directory operations.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20014",
+      "key": "REQ-PERF-003",
+      "fields": {
+        "summary": "Must provide deterministic operation timing for real-time systems",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must provide deterministic operation timing suitable for real-time systems. Predictable performance is essential for real-time application requirements.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20015",
+      "key": "REQ-PERF-004",
+      "fields": {
+        "summary": "Must integrate with ThreadX timer services",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must integrate with ThreadX timer services with configurable update rates. System time synchronization ensures accurate file timestamps.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20016",
+      "key": "REQ-QUAL-001",
+      "fields": {
+        "summary": "Must be safety certified for real-time applications",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must be safety certified for real-time applications under Eclipse Foundation governance. Safety certification ensures reliability in critical embedded systems.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20017",
+      "key": "REQ-QUAL-002",
+      "fields": {
+        "summary": "Must be released under MIT License as open source software",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must be released under MIT License as vendor-neutral open source software. Open source licensing enables broad adoption and community contributions.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20018",
+      "key": "REQ-QUAL-003",
+      "fields": {
+        "summary": "Must provide fault-tolerant file system operations",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must provide fault-tolerant file system operations with power-failure recovery. Data integrity protection prevents corruption during unexpected power loss.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20019",
+      "key": "REQ-QUAL-004",
+      "fields": {
+        "summary": "Must include media check and repair utilities",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must include media check and repair utilities for file system validation. File system maintenance tools ensure long-term data reliability.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20020",
+      "key": "REQ-INT-001",
+      "fields": {
+        "summary": "Must fully integrate with ThreadX RTOS kernel services",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must fully integrate with ThreadX RTOS kernel services and synchronization mechanisms. Deep integration ensures optimal performance and resource sharing.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20021",
+      "key": "REQ-INT-002",
+      "fields": {
+        "summary": "Must maintain compatibility with ThreadX ecosystem components",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must maintain compatibility with ThreadX ecosystem components (NetX Duo, GUIX, USBX, LevelX). Component interoperability enables comprehensive embedded solutions.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20022",
+      "key": "REQ-INT-003",
+      "fields": {
+        "summary": "Must support integration with major semiconductor SDKs",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must support integration with major semiconductor SDKs from STM, NXP, Renesas, and Microchip. Vendor SDK integration simplifies development and deployment.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20023",
+      "key": "REQ-INT-004",
+      "fields": {
+        "summary": "Must provide CMake-based composable build system",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must provide CMake-based composable build system supporting git submodules. Modern build infrastructure enables easy project integration and dependency management.",
+        "verifiableByCodeOnly": true
+      }
+    }
+  ]
+}
