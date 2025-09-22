@@ -1,8 +1,8 @@
 {
   "expand": "schema,names",
   "startAt": 0,
-  "maxResults": 52,
-  "total": 52,
+  "maxResults": 55,
+  "total": 55,
   "issues": [
     {
       "id": "20001",
@@ -521,6 +521,85 @@
           "accountId": "system"
         },
         "description": "Must fully integrate with ThreadX RTOS kernel services and synchronization mechanisms. Deep integration ensures optimal performance and resource sharing.",
+        "verifiableByCodeOnly": true
+      }
+    },
+
+    {
+      "id": "20021",
+      "key": "REQ-DOC-021",
+      "fields": {
+        "summary": "Must maintain compatibility with ThreadX ecosystem components",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must maintain compatibility with ThreadX ecosystem components (NetX Duo, GUIX, USBX, LevelX). Component interoperability enables comprehensive embedded solutions.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20022",
+      "key": "REQ-DOC-022",
+      "fields": {
+        "summary": "Must support integration with major semiconductor SDKs",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must support integration with major semiconductor SDKs from STM, NXP, Renesas, and Microchip. Vendor SDK integration simplifies development and deployment.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20023",
+      "key": "REQ-DOC-023",
+      "fields": {
+        "summary": "Must provide CMake-based composable build system",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must provide CMake-based composable build system supporting git submodules. Modern build infrastructure enables easy project integration and dependency management.",
         "verifiableByCodeOnly": true
       }
     },
@@ -1353,84 +1432,6 @@
           "accountId": "system"
         },
         "description": "Thread safety shall be enforced through mutex protection when not in single-thread mode. Uses fx_media_protect mutex for synchronization.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "20021",
-      "key": "REQ-DOC-021",
-      "fields": {
-        "summary": "Must maintain compatibility with ThreadX ecosystem components",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "Must maintain compatibility with ThreadX ecosystem components (NetX Duo, GUIX, USBX, LevelX). Component interoperability enables comprehensive embedded solutions.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "20022",
-      "key": "REQ-DOC-022",
-      "fields": {
-        "summary": "Must support integration with major semiconductor SDKs",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "Must support integration with major semiconductor SDKs from STM, NXP, Renesas, and Microchip. Vendor SDK integration simplifies development and deployment.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "20023",
-      "key": "REQ-DOC-023",
-      "fields": {
-        "summary": "Must provide CMake-based composable build system",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "Must provide CMake-based composable build system supporting git submodules. Modern build infrastructure enables easy project integration and dependency management.",
         "verifiableByCodeOnly": true
       }
     }
