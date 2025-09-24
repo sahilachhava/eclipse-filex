@@ -1,0 +1,788 @@
+{
+  "expand": "schema,names",
+  "startAt": 0,
+  "maxResults": 30,
+  "total": 30,
+  "issues": [
+    {
+      "id": "30001",
+      "key": "REQ-DOC-001",
+      "fields": {
+        "summary": "FileX must provide high-performance FAT-compatible file system for embedded applications",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall be a complete FAT format media and file management system designed specifically for deeply embedded, real-time, and IoT applications.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30002",
+      "key": "REQ-DOC-002",
+      "fields": {
+        "summary": "System must support FAT12, FAT16, and FAT32 file system formats",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall support all FAT file system formats including 12-bit, 16-bit, and 32-bit File Allocation Table formats with multiple partition support.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30003",
+      "key": "REQ-DOC-003",
+      "fields": {
+        "summary": "Memory footprint must be minimal with 6-30KB ROM and 100 bytes RAM",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall require between 6-30 KBytes of ROM and only 100 bytes of RAM for global data structures to ensure suitability for embedded systems.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30004",
+      "key": "REQ-DOC-004",
+      "fields": {
+        "summary": "System must support unlimited number of media devices simultaneously",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall support an unlimited number of media devices including RAM disks, FLASH managers, and physical devices operating simultaneously.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30005",
+      "key": "REQ-DOC-005",
+      "fields": {
+        "summary": "System must support both 8.3 and Long File Name formats up to 256 characters",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall support standard 8.3 character filenames and Windows Long File Names with Unicode support up to 256 characters maximum.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30006",
+      "key": "REQ-DOC-006",
+      "fields": {
+        "summary": "System must provide contiguous file allocation for deterministic performance",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall offer contiguous file support through fx_file_allocate service to improve and make file access time deterministic for performance-critical applications.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30007",
+      "key": "REQ-DOC-007",
+      "fields": {
+        "summary": "System must implement logical sector cache for performance optimization",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall maintain a logical sector cache using most-recently-used algorithm to significantly improve performance by reducing sector transfers.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30008",
+      "key": "REQ-DOC-008",
+      "fields": {
+        "summary": "System must support complete ThreadX processor integration",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall provide complete integration with ThreadX RTOS and support all processors supported by Eclipse ThreadX with no run-time royalties.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30009",
+      "key": "REQ-DOC-009",
+      "fields": {
+        "summary": "System must provide fault tolerant support to prevent corruption",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall include optional fault tolerant module to prevent file system corruption from interruptions during file or directory updates.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30010",
+      "key": "REQ-DOC-010",
+      "fields": {
+        "summary": "System must comply with IEC-61508 SIL 4 safety certification",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall be certified by SGS-TÜV Saar for use in safety-critical systems according to IEC-61508 SIL 4 standards.",
+        "verifiableByCodeOnly": false
+      }
+    },
+    {
+      "id": "30011",
+      "key": "REQ-DOC-011",
+      "fields": {
+        "summary": "System must provide comprehensive media management API services",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall provide intuitive media access APIs including fx_media_open, fx_media_close, fx_media_format, and fx_media_space_available services.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30012",
+      "key": "REQ-DOC-012",
+      "fields": {
+        "summary": "System must provide complete directory management services",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall provide directory services including create, delete, navigation, attribute management with support for up to 256 byte paths.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30013",
+      "key": "REQ-DOC-013",
+      "fields": {
+        "summary": "System must provide comprehensive file management services",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall provide file services including create, delete, read, write, seek operations with support for unlimited open files and fast seek logic.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30014",
+      "key": "REQ-DOC-014",
+      "fields": {
+        "summary": "System must support multiple media types including RAM, FLASH, and SD cards",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall support various physical media including RAM, USBX, SD cards, and NAND/NOR flash memories via LevelX integration.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30015",
+      "key": "REQ-DOC-015",
+      "fields": {
+        "summary": "System must provide endian neutral operation for portability",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall operate in endian neutral manner to ensure compatibility across different processor architectures and byte ordering schemes.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30016",
+      "key": "REQ-DOC-016",
+      "fields": {
+        "summary": "System must support dynamic object creation and deletion",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall allow dynamic creation and deletion of system resources with no predetermined limits on number of objects.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30017",
+      "key": "REQ-DOC-017",
+      "fields": {
+        "summary": "System must implement internal FAT entry cache for performance",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall maintain an internal FAT entry cache with configurable size (default 16 entries) to optimize FAT table access performance.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30018",
+      "key": "REQ-DOC-018",
+      "fields": {
+        "summary": "System must provide simple I/O driver interface for media integration",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall provide easy-to-implement I/O driver interface with simple read/write logical sector operations for media device integration.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30019",
+      "key": "REQ-DOC-019",
+      "fields": {
+        "summary": "System must support configurable compilation options for customization",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall provide extensive configuration options including cache sizes, filename lengths, and feature enable/disable flags for optimization.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30020",
+      "key": "REQ-DOC-020",
+      "fields": {
+        "summary": "System must provide standalone operation mode without ThreadX",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall support standalone operation mode through FX_STANDALONE_ENABLE definition for use without Eclipse ThreadX RTOS dependency.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30021",
+      "key": "REQ-DOC-021",
+      "fields": {
+        "summary": "System must implement automatic time and date stamping capabilities",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall provide automatic time and date stamping for files using ThreadX timer facilities with periodic system time updates.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30022",
+      "key": "REQ-DOC-022",
+      "fields": {
+        "summary": "System must support write protection and free sector notifications",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall provide dynamic write protection capability and free sector update notifications for FLASH memory management optimization.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30023",
+      "key": "REQ-DOC-023",
+      "fields": {
+        "summary": "System must support global and local path management",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall provide both global default path for media and thread-specific local paths to allow different threads unique paths without conflict.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30024",
+      "key": "REQ-DOC-024",
+      "fields": {
+        "summary": "System must implement callback functions for media and file operations",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall provide callback functions for media open/close and file write events to notify applications when such events occur.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30025",
+      "key": "REQ-DOC-025",
+      "fields": {
+        "summary": "System must provide built-in performance statistics and TraceX support",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall include built-in performance statistics collection and TraceX system analysis support for performance monitoring and debugging.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30026",
+      "key": "REQ-DOC-026",
+      "fields": {
+        "summary": "System must support 64-bit sector addressing for large media",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall support 64-bit sector addresses in I/O drivers through FX_DRIVER_USE_64BIT_LBA option for large media device support.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30027",
+      "key": "REQ-DOC-027",
+      "fields": {
+        "summary": "System must provide complete ANSI C source code with no royalties",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall be distributed with complete ANSI C source code and have no run-time royalties for commercial and embedded applications.",
+        "verifiableByCodeOnly": false
+      }
+    },
+    {
+      "id": "30028",
+      "key": "REQ-DOC-028",
+      "fields": {
+        "summary": "System must support error detection and recovery mechanisms",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall implement comprehensive error detection and recovery mechanisms to maintain file system integrity and handle exceptional conditions.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30029",
+      "key": "REQ-DOC-029",
+      "fields": {
+        "summary": "System must support flexible memory usage and automatic scaling",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall provide flexible memory usage patterns and automatic size scaling based on application requirements and available system resources.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30030",
+      "key": "REQ-DOC-030",
+      "fields": {
+        "summary": "System must integrate with LevelX for FLASH wear leveling",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "FileX shall support integration with LevelX NOR/NAND FLASH wear leveling product to extend FLASH memory lifespan in embedded applications.",
+        "verifiableByCodeOnly": true
+      }
+    }
+  ]
+}
